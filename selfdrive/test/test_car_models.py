@@ -70,8 +70,8 @@ routes = {
     'carFingerprint': CHRYSLER.PACIFICA_2019_HYBRID,
     'enableCamera': True,
   },
-  "8190c7275a24557b|2020-01-29--08-33-58": {
-    'carFingerprint': CHRYSLER.PACIFICA_2020_HYBRID,
+  "8190c7275a24557b|2020-01-29--08-33-58": {  # 2020 model year
+    'carFingerprint': CHRYSLER.PACIFICA_2019_HYBRID,
     'enableCamera': True,
   },
   # This pacifica was removed because the fingerprint seemed from a Volt
@@ -188,11 +188,10 @@ routes = {
     'carFingerprint': HONDA.ACCORD_15,
     'enableCamera': True,
   },
-  # TODO: This doesnt fingerprint because the fingerprint overlaps with the Insight
-  # "690c4c9f9f2354c7|2018-09-15--17-36-05": {
-  #   'carFingerprint': HONDA.ACCORDH,
-  #   'enableCamera': True,
-  # },
+  "690c4c9f9f2354c7|2018-09-15--17-36-05": {
+    'carFingerprint': HONDA.ACCORDH,
+    'enableCamera': True,
+  },
   "1632088eda5e6c4d|2018-06-07--08-03-18": {
     'carFingerprint': HONDA.CIVIC_BOSCH,
     'enableCamera': True,
@@ -480,7 +479,7 @@ non_public_routes = [
 ]
 
 # TODO: add routes for these cars
-non_tested_cars = [TOYOTA.LEXUS_CTH, CHRYSLER.PACIFICA_2018, HONDA.ACCORDH]
+non_tested_cars = [TOYOTA.LEXUS_CTH, CHRYSLER.PACIFICA_2018]
 
 if __name__ == "__main__":
 
